@@ -1,7 +1,8 @@
 import 'package:fashion/core/constants/assets.dart';
 
 class ProductsModel {
-  final String image, descripation, name, price;
+  final String image, descripation, name;
+  final int price;
 
   ProductsModel({
     required this.image,
@@ -12,37 +13,37 @@ class ProductsModel {
   static List<ProductsModel> productList = [
     ProductsModel(
       image: Assets.assetsProductProduct6,
-      price: '100 €',
+      price: 100,
       descripation: 'reversible angora cardigan',
       name: 'October',
     ),
     ProductsModel(
       image: Assets.assetsProductProduct1,
-      price: '120 €',
+      price: 120,
       descripation: 'reversible angora cardigan',
       name: 'October',
     ),
     ProductsModel(
       image: Assets.assetsProductProduct5,
-      price: '70 €',
+      price: 70,
       descripation: 'reversible angora cardigan',
       name: 'October',
     ),
     ProductsModel(
       image: Assets.assetsProductProduct4,
-      price: '90 €',
+      price: 80,
       descripation: 'reversible angora cardigan',
       name: 'October',
     ),
     ProductsModel(
       image: Assets.assetsProductProduct2,
-      price: '80 €',
+      price: 90,
       descripation: 'reversible angora cardigan',
       name: 'October',
     ),
     ProductsModel(
       image: Assets.assetsProductProduct3,
-      price: '150 €',
+      price: 150,
       descripation: 'reversible angora cardigan',
       name: 'October',
     ),
